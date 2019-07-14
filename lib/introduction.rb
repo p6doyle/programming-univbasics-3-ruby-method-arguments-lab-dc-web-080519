@@ -14,10 +14,9 @@ end
 introduction_with_language(name,language)
 
 def introduction_with_language_optional(name,language)
-  if language(:age)
-    puts args[:age]
-  end
+  if language = Ruby
     puts "Hi, my name is #{name} and I am learning to program in #{language}."
+  end
 end
 
 introduction_with_language_optional(name,language)
